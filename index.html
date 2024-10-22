@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip Calculator App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/calculator.css">
+  <script src="assets/js/calculator.js" defer></script>
+</head>
+<body>
+  
+  <div class="container">
+
+    <img src="assets/img/SPLITTER.png" alt="splitter">
+    <div class="hero">
+      <div class="hero-first">
+        <h6>Bill</h6>
+        <input type="text" id="inputBill" class="inputBill">
+        <h6>Select Tip %</h6>
+        <input type="text" id="inputTip" class="inputTip">
+        <h6>Number of People</h6>
+        <input type="text" id="inputPeople">
+      </div>
+      <div class="hero-second">
+        <div class="tip-amount">
+          <p><strong>Tip Amount</strong><br>/ person <span id="tipAmount">$0</span></p>
+
+        </div>
+        <div class="tip-total">
+          <p><strong>Total</strong><br>/ person <span id="tipTotal">$0</span></p>
+
+        </div>
+        <button id="calcBtn">CALCULATE</button>
+        <button id="resetBtn">RESET</button>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
